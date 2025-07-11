@@ -4,15 +4,6 @@ import "./globals.css";
 import Navbar from '../components/Navbar'
 import { ThemeProvider } from "next-themes";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#f7fafc] text-[#171717] dark:bg-[#0a0a0a] dark:text-[#ededed]">
+      <body className="bg-yellow-50 text-[#171717] dark:bg-[#0a0a0a] dark:text-[#ededed]">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           <div className="min-h-screen flex">

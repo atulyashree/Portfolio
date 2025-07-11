@@ -17,7 +17,7 @@ export default function Projects() {
       <h2 className="text-2xl font-bold mb-8 text-center">My Projects</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project) => (
-          <div key={project.name} className="bg-white dark:bg-neutral-900 rounded-lg shadow p-6">
+          <div key={project.name} className="bg-yellow-50 dark:bg-neutral-900 rounded-lg shadow p-6">
             <img src={project.image} alt={project.name} className="rounded mb-4" />
             <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
             <p className="mb-2">{project.description}</p>

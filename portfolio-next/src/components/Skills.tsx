@@ -1,4 +1,4 @@
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython, FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiPostgresql, SiDocker } from "react-icons/si";
 
 const skills = [
@@ -6,7 +6,7 @@ const skills = [
   { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
-  { name: "Python", icon: <FaPython className="text-yellow-400" /> },
+  { name: "Java", icon: <FaPython className="text-yellow-400" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-500" /> },
   { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-800" /> },
   { name: "Docker", icon: <SiDocker className="text-blue-400" /> },

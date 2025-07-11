@@ -1,17 +1,11 @@
 export default function Hero() {
   return (
-    <section
-      className="flex flex-col items-center justify-center min-h-[60vh] text-center"
-      id="hero"
-    >
-      <img
-        src="/avatar.png" // Place your image in public/avatar.png
-        alt="Your Name"
-        className="w-32 h-32 rounded-full mb-4"
-      />
-      <h1 className="text-4xl font-bold mb-2">Atulya Shree Sharma</h1>
+    <section className="flex flex-col items-center justify-center min-h-[60vh] text-center" id="hero">
+      <h1 className="text-4xl font-bold mb-4">
+        Hi, I'm a passionate software engineer who loves turning ideas into code.
+      </h1>
       <p className="text-xl text-gray-500 mb-4">
-        Software Engineer turning ideas into code
+        I enjoy building beautiful, functional web experiences and am always eager to learn new technologies.
       </p>
       <div className="flex gap-4 justify-center">
         <a

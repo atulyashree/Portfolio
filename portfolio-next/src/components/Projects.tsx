@@ -6,7 +6,7 @@ const projects = [
     stack: ["Next.js", "Typescript", "PostgreSQL", "TailwindCSS", "Node.js"],
     link: "https://careersnow.vercel.app/",
     github: "https://github.com/atulyashree/Careersnow",
-    image: "/projects/chat-collect.png"
+    image: "/projects/careers.png"
   },
   // Add more projects...
 ];

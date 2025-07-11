@@ -22,7 +22,13 @@
 }
 
 body {
-  background: var(--background);
-  color: #ededed; /* Light gray for dark backgrounds */
+  background: #f7fafc; /* pastel light */
+  color: #171717;
   font-family: Arial, Helvetica, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0a0a0a;
+    color: #ededed;
+  }
 }

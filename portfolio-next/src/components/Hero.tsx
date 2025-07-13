@@ -10,7 +10,7 @@ export default function Hero() {
           Software Engineer exploring the problems of the world and building solutions to them.
         </p>
       </div>
-      <div className="flex-shrink-0 flex items-center md:justify-center h-full -mt-16">
+      <div className="flex-shrink-0 flex items-center md:justify-center h-full mt-4 md:-mt-16">
         <img
           src="/STK-20250713-WA0006.webp"
           alt="Atulya Shree animated"

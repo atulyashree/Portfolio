@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const experiences = [
   {
     company: "RoboMQ",
@@ -39,7 +41,7 @@ export default function Experience() {
             className="bg-white dark:bg-neutral-900 rounded-xl shadow p-6 flex flex-col sm:flex-row sm:items-center gap-4"
           >
             <div className="flex-shrink-0 flex items-center justify-center w-14 h-14 bg-gray-100 dark:bg-neutral-800 rounded-full overflow-hidden">
-              <img src={exp.logo} alt={exp.company + ' logo'} className="w-10 h-10 object-contain" />
+              <Image src={exp.logo} alt={exp.company + ' logo'} width={40} height={40} className="w-10 h-10 object-contain" />
             </div>
             <div className="flex-1">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-1">

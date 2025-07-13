@@ -5,7 +5,7 @@ export default function Contact() {
     <section className="py-16 px-4 max-w-2xl mx-auto" id="contact">
       <h2 className="text-2xl font-bold mb-8 text-center">Get in Touch</h2>
       <p className="text-center text-gray-600 dark:text-gray-300 mb-6 text-base">
-        Want to chat? Just shoot me a DM on social or email, or use the form below and I'll respond whenever I can.
+        Want to chat? Just shoot me a DM on social or email, or use the form below and I&apos;ll respond whenever I can.
       </p>
       <div className="flex justify-center gap-6 mb-8">
         <a

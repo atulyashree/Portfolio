@@ -11,7 +11,7 @@ const projects = [
   },
 
   {
-    name: "Mobile Price Expert",
+    name: "PricePredictor",
     description: "A project to classify mobile phones based on their price",
     stack: ["python", "scikit-learn", "pandas", "numpy", "matplotlib", "seaborn", "heroku"],
     link: "https://github.com/atulyashree/mobileprice_classify",
@@ -21,8 +21,8 @@ const projects = [
   },
 
   {
-    name: "iPhone Review Expert",
-    description: "This is a bsic Natural Language Processing (NLP) Sentiment Analysis Web Application that classifies iPhone reviews as either positive or negative.",
+    name: "iReviewSense",
+    description: "This is a basic Natural Language Processing (NLP) Sentiment Analysis Web Application that classifies iPhone reviews as either positive or negative",
     stack: ["python", "scikit-learn", "NLTK", "pandas", "matplotlib", "numpy", "streamlit"],
     link: "https://github.com/atulyashree/NLP-Iphone-review",
     github: "https://github.com/atulyashree/NLP-Iphone-review",

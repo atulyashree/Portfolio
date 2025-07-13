@@ -1,7 +1,7 @@
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-[60vh] gap-8" id="hero">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-[60vh] gap-4 md:gap-8" id="hero">
       <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-8 font-script">
           Hi, I&apos;m Atulya

@@ -7,7 +7,12 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Nunito', 'ui-sans-serif', 'system-ui'],
+        script: ['Pacifico', 'cursive'],
+      },
+    },
   },
   plugins: [],
-}
+};

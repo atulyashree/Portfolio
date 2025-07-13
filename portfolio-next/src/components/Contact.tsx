@@ -3,43 +3,39 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 export default function Contact() {
   return (
     <section className="py-16 px-4 max-w-2xl mx-auto" id="contact">
-      <h2 className="text-2xl font-bold mb-8 text-center">Contact Me</h2>
-      <div className="flex flex-col items-center gap-4">
+      <h2 className="text-2xl font-bold mb-8 text-center">Get in Touch</h2>
+      <p className="text-center text-gray-600 dark:text-gray-300 mb-6 text-base">
+        Want to chat? Just shoot me a DM on social or email, or use the form below and I'll respond whenever I can.
+      </p>
+      <div className="flex justify-center gap-6 mb-8">
         <a
           href="mailto:atulyashrees@gmail.com"
-          className="flex items-center gap-2 text-blue-500 hover:underline"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 dark:bg-neutral-800 text-blue-600 dark:text-blue-400 text-2xl hover:bg-blue-200 dark:hover:bg-neutral-700 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Email"
         >
-          <FaEnvelope /> atulyashrees@gmail.com
+          <FaEnvelope />
         </a>
         <a
           href="https://www.linkedin.com/in/atulya-shree-sharma/"
-          className="flex items-center gap-2 text-blue-700 hover:underline"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 dark:bg-neutral-800 text-blue-700 dark:text-blue-400 text-2xl hover:bg-blue-200 dark:hover:bg-neutral-700 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn"
         >
-          <FaLinkedin /> LinkedIn
+          <FaLinkedin />
         </a>
         <a
           href="https://github.com/atulyashree"
-          className="flex items-center gap-2 text-gray-800 dark:text-gray-200 hover:underline"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800 text-gray-800 dark:text-gray-200 text-2xl hover:bg-gray-200 dark:hover:bg-neutral-700 transition-colors"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub"
         >
-          <FaGithub /> GitHub
-        </a>
-        {/* Optionally add your resume link */}
-        <a
-          href="/resume.pdf"
-          className="flex items-center gap-2 text-green-700 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
+          <FaGithub />
         </a>
       </div>
-      {/* Contact Form, using formspree */}
       <form
         action="https://formspree.io/f/xrbknjbe"
         method="POST"
@@ -73,6 +69,16 @@ export default function Contact() {
           Send
         </button>
       </form>
+      <div className="text-center mt-6">
+        <a
+          href="/resume.pdf"
+          className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-50 dark:hover:bg-neutral-800 transition-colors font-medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+      </div>
     </section>
   );
 }

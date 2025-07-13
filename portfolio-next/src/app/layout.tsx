@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from '../components/Navbar'
 import { ThemeProvider } from "next-themes";
 import type { PropsWithChildren } from "react";
+import BottomNav from '../components/BottomNav';
 
 
 export const metadata: Metadata = {
@@ -13,10 +13,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className="bg-yellow-50 text-[#171717] dark:bg-[#0a0a0a] dark:text-[#ededed]">
+      <body className="bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 dark:from-[#232946] dark:via-[#1a1a2e] dark:to-[#0f3460] text-[#171717] dark:text-[#ededed] font-sans">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Navbar />
-          <main className="flex-1">{children}</main>
+          <div className="max-w-3xl mx-auto px-4 py-8 min-h-screen flex flex-col">
+            <main className="flex-1">{children}</main>
+          </div>
+          <BottomNav />
         </ThemeProvider>
       </body>
     </html>

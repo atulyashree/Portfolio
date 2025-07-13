@@ -2,28 +2,21 @@ import { FaDownload } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-[60vh] text-center" id="hero">
-      <h1 className="text-4xl font-bold mb-4">
-        Hi, I&apos;m a passionate software engineer who loves turning ideas into code.
-      </h1>
-      <p className="text-xl text-gray-500 mb-4">
-        I enjoy building beautiful, functional web experiences and am always eager to learn new technologies.
-      </p>
-      <div className="flex gap-4 justify-center">
-        <a
-          href="/resume.pdf"
-          className="px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-50 flex items-center gap-2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaDownload /> Download Resume
-        </a>
-        <a
-          href="#contact"
-          className="px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-50"
-        >
-          Contact Me
-        </a>
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-[60vh] gap-8" id="hero">
+      <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-8 font-script">
+          Hi, I&apos;m Atulya
+        </h1>
+        <p className="text-xl text-gray-600 dark:text-gray-300 mb-6 max-w-xl">
+          Software Engineer exploring the problems of the world and building solutions to them.
+        </p>
+      </div>
+      <div className="flex-shrink-0 flex items-center md:justify-center h-full -mt-16">
+        <img
+          src="/STK-20250713-WA0006.webp"
+          alt="Atulya Shree animated"
+          className="w-40 h-40 md:w-52 md:h-52 object-cover mx-auto"
+        />
       </div>
     </section>
   );
